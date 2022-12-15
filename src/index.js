@@ -1,5 +1,5 @@
 import './style.css';
-import refresh from './assets/refresh.png'
+import refresh from './assets/refresh.png';
 
 const description = document.querySelector('#inputid');
 const hardlist = document.createElement('div');
@@ -8,13 +8,30 @@ const todo = document.querySelector('#ToDo');
 const Added = document.querySelector('.added');
 let project;
 let index = 2;
-let completed = false;
-let pushArr = [];
+const completed = false;
+const pushArr = [];
+
+const list = [
+  {
+    idA: 1,
+    doneA: completed,
+    inputValA: 'wash the dishes',
+  },
+  {
+    idA: 2,
+    doneA: completed,
+    inputValA: 'complete To Do List project',
+  }, {
+    idA: index,
+    doneA: completed,
+    inputValA: description.value,
+  },
+];
 
 description.addEventListener('keyup', (e) => {
-  if(e.keyCode === 13) {
+  if (e.keyCode === 13) {
     project = description.value;
-    index++;
+    index += 1;
     document.getElementById('list').innerHTML += `
     <div class="added" id="item${index}">
     <input id="checker" type="checkbox">
@@ -25,24 +42,7 @@ description.addEventListener('keyup', (e) => {
     pushArr.push(project, index);
     list.push(pushArr);
   }
-})
-
-const list = [
-  {
-    idA: 1,
-    doneA: completed,
-    inputValA: `wash the dishes`,
-  },
-  {
-    idA: 2,
-    doneA: completed,
-    inputValA: 'complete To Do List project',
-  },  {
-    idA: index,
-    doneA: completed,
-    inputValA: description.value,
-  }
-];
+});
 
 hardlist.innerHTML = `
 <div class="added" id="item${list[0].idA[0]}">

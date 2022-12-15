@@ -1,71 +1,72 @@
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-input-placeholder {
-    font-style: italic;
- }
+  font-style: italic;
+}
 
 body {
-    background-color: rgb(201, 201, 201);
-    padding-left: 32%;
-    padding-right: 32%;
+  background-color: rgb(201, 201, 201);
+  padding-left: 32%;
+  padding-right: 32%;
 }
 
 #ToDo {
-    padding-left: 2%;
-}
-
-#ToDo img {
-    float: right;
-    margin: -10px 25px 15px 20px;
-}
-
-#inputid {
-    position: relative;
-    width: 92%;
-    height: 40px;
-    padding-left: 2%;
-}
-#enterid {
-    width: 20px;
-}
-
-input {
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: hidden;
-  }
-
-.no-outline:focus {
-    outline: none;
-  }
-
-#TDBorder {
-    border: solid 1px gray;
-    background-color: white;
-}
-
-#checker {
-    float: left;
-    margin-left: 2%;
-    margin-top: 1vw;
+  padding-left: 2%;
 }
 
 .added img {
-    float: right;
-    margin: -37px 10px 15px 20px;
+  float: right;
+  margin: -37px 10px 15px 20px;
+}
+
+#ToDo img {
+  float: right;
+  margin: -10px 25px 15px 20px;
+}
+
+#inputid {
+  position: relative;
+  width: 92%;
+  height: 40px;
+  padding-left: 2%;
+}
+
+#enterid {
+  width: 20px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+#TDBorder {
+  border: solid 1px gray;
+  background-color: white;
+}
+
+#checker {
+  float: left;
+  margin-left: 2%;
+  margin-top: 1vw;
 }
 
 .added {
-    border-top: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: solid 1px gray;
-    border: solid 1px gray;
+  border-top: hidden;
+  border-right: hidden;
+  border-left: hidden;
+  border-bottom: solid 1px gray;
+  border: solid 1px gray;
 }
 
 #clear {
-    padding-left: 2%;
+  padding-left: 2%;
 }
