@@ -1,57 +1,57 @@
 import './style.css';
 import refresh from './assets/refresh.png';
 
-const description = document.querySelector('#inputid');
+const inputVal = document.querySelector('#inputid');
 const hardlist = document.createElement('div');
 const div = document.querySelector('#list');
 const todo = document.querySelector('#ToDo');
 let project;
-let index = 2;
-const completed = false;
+let ID = 2;
+const done = false;
 const pushArr = [];
 
 const list = [
   {
-    idA: 1,
-    doneA: completed,
-    inputValA: 'wash the dishes',
+    index: 1,
+    completed: done,
+    description: 'wash the dishes',
   },
   {
-    idA: 2,
-    doneA: completed,
-    inputValA: 'complete To Do List project',
+    index: 2,
+    completed: done,
+    description: 'complete To Do List project',
   }, {
-    idA: index,
-    doneA: completed,
-    inputValA: description.value,
+    index: ID,
+    completed: done,
+    description: inputVal.value,
   },
 ];
 
-description.addEventListener('keyup', (e) => {
+inputVal.addEventListener('keyup', (e) => {
   if (e.keyCode === 13) {
-    project = description.value;
-    index += 1;
+    project = inputVal.value;
+    ID += 1;
     document.getElementById('list').innerHTML += `
-    <div class="added" id="item${index}">
+    <div class="added" id="item${ID}">
     <input id="checker" type="checkbox">
-    <p>${description.value}</p>
+    <p>${inputVal.value}</p>
     <img src='../src/assets/dots.png'>
     </div>
     `;
-    pushArr.push(project, index);
+    pushArr.push(project, ID);
     list.push(pushArr);
   }
 });
 
 hardlist.innerHTML = `
-<div class="added" id="item${list[0].idA[0]}">
+<div class="added" id="item${list[0].index[0]}">
 <input id="checker" type="checkbox">
-<p>${list[0].inputValA}</p>
+<p>${list[0].description}</p>
 <img src='../src/assets/dots.png'>
 </div>
-<div class="added" id="item${list[1].idA[1]}">
+<div class="added" id="item${list[1].index[1]}">
 <input id="checker" type="checkbox">
-<p>${list[1].inputValA}</p>
+<p>${list[1].description}</p>
 <img src='../src/assets/dots.png'>
 </div>
 `;

@@ -21,6 +21,10 @@ body {
   margin: -37px 10px 15px 20px;
 }
 
+.added p {
+  padding-left: 35px;
+}
+
 #ToDo img {
   float: right;
   margin: -10px 25px 15px 20px;
@@ -68,5 +72,6 @@ input {
 }
 
 #clear {
-  padding-left: 2%;
+  text-align: center;
+  color: gray;
 }
