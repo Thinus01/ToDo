@@ -5,7 +5,6 @@ const description = document.querySelector('#inputid');
 const hardlist = document.createElement('div');
 const div = document.querySelector('#list');
 const todo = document.querySelector('#ToDo');
-const Added = document.querySelector('.added');
 let project;
 let index = 2;
 const completed = false;
