@@ -47,7 +47,8 @@ input {
   background-color: rgb(231, 231, 231);
   width: 100%;
   border: solid 1px gray;
-  padding: 10px 0px 10px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .no-outline:focus {
