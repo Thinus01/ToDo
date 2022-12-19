@@ -7,71 +7,55 @@
 }
 
 body {
-  background-color: rgb(201, 201, 201);
-  padding-left: 32%;
-  padding-right: 32%;
+  background-color: rgb(224, 221, 215);
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 #ToDo {
+  font-size: 200%;
   padding-left: 2%;
+  width: 70%;
+  float: left;
 }
 
-.added img {
-  float: right;
-  margin: -37px 10px 15px 20px;
+#refresh {
+  margin-top: 5%;
+  padding-left: 20%;
 }
 
-.added p {
-  padding-left: 35px;
-}
-
-#ToDo img {
-  float: right;
-  margin: -10px 25px 15px 20px;
-}
-
-#inputid {
-  position: relative;
-  width: 92%;
+.inputid {
+  font-size: 150%;
+  width: 89%;
   height: 40px;
   padding-left: 2%;
 }
 
-#enterid {
-  width: 20px;
+.list-item {
+  font-size: 150%;
+  width: 85%;
+  padding-bottom: 10px;
 }
 
 input {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
+  border-style: hidden;
+}
+
+.clear {
+  font-size: 125%;
+  color: gray;
+  background-color: rgb(231, 231, 231);
+  width: 100%;
+  border: solid 1px gray;
+  padding: 10px 0px 10px 0px;
 }
 
 .no-outline:focus {
   outline: none;
 }
 
-#TDBorder {
+.TDBorder {
+  margin-top: 25%;
   border: solid 1px gray;
   background-color: white;
-}
-
-#checker {
-  float: left;
-  margin-left: 2%;
-  margin-top: 1vw;
-}
-
-.added {
-  border-top: hidden;
-  border-right: hidden;
-  border-left: hidden;
-  border-bottom: solid 1px gray;
-  border: solid 1px gray;
-}
-
-#clear {
-  text-align: center;
-  color: gray;
 }
