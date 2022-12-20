@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books] <a name="about-project"></a>
+# 📖 [To-Do List] <a name="about-project"></a>
 
 > I have built a this project using HTML, CSS and JavaScript .
 
