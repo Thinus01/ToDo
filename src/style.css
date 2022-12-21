@@ -1,0 +1,68 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+body {
+  background-color: rgb(219, 219, 219);
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#ToDo {
+  padding-left: 5%;
+  font-size: 250%;
+  float: left;
+  width: 89%;
+}
+
+#refresh {
+  margin-top: 50px;
+}
+
+.inputid {
+  width: 87%;
+  font-size: 200%;
+  padding-left: 5%;
+}
+
+.lists {
+  padding-left: 5%;
+}
+
+.main-list {
+  padding-top: 15px;
+}
+
+.list-item {
+  font-size: 125%;
+  width: 83%;
+}
+
+.clear {
+  margin-top: 20px;
+  width: 100%;
+  background-color: rgb(223, 219, 213);
+  border: solid 1px gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: gray;
+  font-size: 125%;
+}
+
+input {
+  border-style: hidden;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+.TDBorder {
+  margin-top: 25%;
+  border: solid 1px gray;
+  background-color: white;
+}
