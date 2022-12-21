@@ -17,7 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#[live-demo](https://thinus01.github.io/ToDo/dist/))
+  - [🚀 Live Demo](#[(https://thinus01.github.io/ToDo/dist/)])
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
